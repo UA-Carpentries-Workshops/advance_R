@@ -1,4 +1,4 @@
-# These functions are useful for generating the status for muliple datasets
+# These functions are useful for generating the status for multiple datasets
 
 analyze_data <- function(file, countr) {
   file_out <- read.csv(file, header = TRUE)
